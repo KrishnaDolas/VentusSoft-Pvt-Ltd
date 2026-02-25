@@ -27,7 +27,7 @@ export default function Footer() {
 
             <img
 
-              src="/auribus_ventuslogo.png"
+              src={`${import.meta.env.BASE_URL}/auribus_ventuslogo.png`}
 
               alt="Ventus Soft"
 
