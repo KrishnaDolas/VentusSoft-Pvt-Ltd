@@ -1,6 +1,6 @@
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter  as Router, Routes, Route, useLocation } from "react-router-dom";
 import Footer from "./components/Footer";
 import ServicesPage from "./pages/ServicePage";
 import AboutPage from "./pages/AboutPage";
