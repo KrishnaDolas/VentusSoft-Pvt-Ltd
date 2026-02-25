@@ -65,7 +65,7 @@ export default function AboutHero() {
               className="relative h-full w-full rounded-2xl overflow-hidden bg-[#0b0d12] z-10 border border-white/10"
             >
               <img
-                src="../../public/abouthero.jpg"
+                src={`${import.meta.env.BASE_URL}/abouthero.jpg`}
                 alt="Auribus Tech team"
                 className="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
               />

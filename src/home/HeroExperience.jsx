@@ -16,7 +16,7 @@ imagesRef.current=[];
 let firstLoaded=false;
 for(let i=1;i<=FRAME_COUNT;i++){
 const img=new Image();
-img.src=`/frames/ezgif-frame-${String(i).padStart(3,"0")}.jpg`;
+img.src = `${import.meta.env.BASE_URL}frames/ezgif-frame-${String(i).padStart(3,"0")}.jpg`;
 img.onload=()=>{
 if(!firstLoaded){
 setIsLoaded(true);
@@ -118,7 +118,7 @@ className="absolute inset-0 w-full h-full object-cover select-none pointer-event
 <div className="flex flex-col mb-14">
   <div className="h-[280px] w-[300px] overflow-hidden">
     <img
-      src="/auribus_ventuslogo.png"
+      src={`${import.meta.env.BASE_URL}/auribus_ventuslogo.png`}
       alt="Ventus Soft"
       className="h-full w-full object-contain block align-bottom"
     />
