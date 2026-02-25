@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Here is the FIX. 
+  We are creating a custom class called '.layout-container'
+  that bundles all the rules from the reference website.
+*/
+@layer components {
+  .layout-container {
+    /* 1. Fixes the width so it doesn't stretch infinitely on zoom out */
+    @apply max-w-6xl w-full; 
+    
+    /* 2. Centers the content in the middle of the screen */
+    @apply mx-auto;
+    
+    /* 3. Adds dynamic padding (small on mobile, big on laptop) */
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Optional global polish */
+html {
+  scroll-behavior: smooth;
+}
+
