@@ -29,7 +29,7 @@ export default function ContactPage() {
             transition={{ delay: 0.1 }}
             className="text-xl text-white/70 leading-relaxed"
           >
-            Contact Auribus Tech and share your details. We’ll get back to you within 1-2 business days to discuss how we can support your goals.
+            Contact Ventus Soft and share your details. We’ll get back to you within 1-2 business days to discuss how we can support your goals.
           </motion.p>
         </div>
 
