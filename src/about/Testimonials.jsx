@@ -36,7 +36,7 @@ export default function Testimonials() {
             // CHANGED: Added 'lg:whitespace-nowrap' to FORCE one line on desktop
             className="text-4xl lg:text-5xl font-medium text-white mb-6 tracking-tight lg:whitespace-nowrap"
           >
-            Trusted by product teams & enterprises
+            Trusted By Product Teams & Enterprises
           </motion.h2>
           
           <motion.p

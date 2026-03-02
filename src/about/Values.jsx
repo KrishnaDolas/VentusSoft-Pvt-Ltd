@@ -44,7 +44,7 @@ export default function Values() {
             viewport={{ once: true }}
             className="text-4xl lg:text-5xl font-medium text-white mb-6 tracking-tight"
           >
-            Our core values
+            Our Core Values
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}

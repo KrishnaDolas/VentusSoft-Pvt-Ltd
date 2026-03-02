@@ -4,20 +4,16 @@ import Footer from "../components/Footer";
 import Reveal from "../components/Reveal";
 import CountUp from "../components/CountUp";
 import { Link } from "react-router-dom";
+import Carousel from "../home/Carousel";
 
 export default function Home() {
 
 return (
 
-<div
-style={{
-background: "transparent",
-minHeight: "100vh",
-width: "100%"
-}}
->
-
-<HeroExperience />
+ <div className="bg-[#050a14] text-white">
+      
+      {/* HERO */}
+      <Carousel />
 
 
 {/* METRICS — KEEP HERO GAP SAFE, tighten bottom */}

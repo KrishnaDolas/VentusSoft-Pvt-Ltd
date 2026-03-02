@@ -17,13 +17,12 @@ export default function CTA() {
             viewport={{ once: true }}
             className="text-4xl lg:text-5xl font-medium text-white mb-6 tracking-tight"
           >
-            Let’s build your success story
+            Let’s Build Your Success Story With Us
           </motion.h2>
 
           {/* SUBTEXT */}
           <p className="text-xl lg:text-2xl text-white/65 leading-relaxed max-w-2xl mx-auto mb-12">
-            Whether it’s Cloud, DevOps, MERN, React Native, or WordPress —
-            we deliver systems teams can trust and scale.
+          
           </p>
 
           {/* BUTTON */}

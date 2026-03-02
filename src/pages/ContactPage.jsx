@@ -16,10 +16,10 @@ export default function ContactPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl lg:text-5xl font-medium text-white mb-6 tracking-tight"
           >
-            Let’s talk about your{" "}
+            Let’s Talk About Your{" "}
             {/* GLOW ADDED HERE */}
             <span className={`text-sky-400 ${glowDropShadow}`}>
-              roadmap.
+              Roadmap.
             </span>
           </motion.h1>
 
@@ -132,11 +132,11 @@ export default function ContactPage() {
               </div>
               <div className="flex flex-col gap-5">
                 <ContactLink 
-                  href="mailto:support@ventussoft.com" 
+                  href="mailto:contact@ventussoft.com" 
                   icon={<FaEnvelope size={18} />} 
-                  text="support@ventussoft.com" 
+                  text="contact@ventussoft.com" 
                 />
-                <ContactLink 
+                {/* <ContactLink 
                   href="tel:+918149524655" 
                   icon={<FaPhoneAlt size={18} />} 
                   text="+91-8149524655" 
@@ -145,7 +145,7 @@ export default function ContactPage() {
                   href="https://www.linkedin.com/in/auribus-tech-673657268/" 
                   icon={<FaLinkedin size={18} />} 
                   text="LinkedIn" 
-                />
+                /> */}
               </div>
             </div>
 

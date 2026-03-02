@@ -118,7 +118,7 @@ className="absolute inset-0 w-full h-full object-cover select-none pointer-event
 <div className="flex flex-col mb-14">
   <div className="h-[280px] w-[300px] overflow-hidden">
     <img
-      src={`${import.meta.env.BASE_URL}/auribus_ventuslogo.png`}
+      src={"/images/auribus_ventuslogo.png"}
       alt="Ventus Soft"
       className="h-full w-full object-contain block align-bottom"
     />
@@ -139,12 +139,18 @@ className="absolute inset-0 w-full h-full object-cover select-none pointer-event
 
 
 <p
-className="mt-4 text-base sm:text-lg md:text-xl text-white/80 max-w-xl"
-style={paragraphStyle}
+  className="
+    mt-4
+    w-fit
+    text-base sm:text-lg md:text-xl
+    text-white
+    px-3 py-1.5
+    rounded-md
+    bg-black/30
+    backdrop-blur-lg
+  "
 >
-
-Engineering the systems behind modern software
-
+  Engineering the systems behind modern software
 </p>
 
 </div>
@@ -183,21 +189,37 @@ transform:"translateY(35%)"
 <>
 
 <h2
-className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-3"
-style={headingStyle}
+  className="
+    w-fit
+    text-xl sm:text-2xl md:text-3xl lg:text-4xl
+    font-medium
+    mb-3
+    px-4 py-2
+    rounded-lg
+    bg-white/10
+    backdrop-blur-md
+    border border-white/20
+    text-white
+  "
+  style={headingStyle}
 >
-
-Scalable foundations
-
+  Scalable foundations
 </h2>
 
 <p
-className="text-white/80 text-sm sm:text-base md:text-lg"
-style={paragraphStyle}
+  className="
+    w-fit
+    text-sm sm:text-base md:text-lg
+    text-white
+    px-4 py-2
+    rounded-lg
+    bg-white/10
+    backdrop-blur-md
+    border border-white/20
+  "
+  style={paragraphStyle}
 >
-
-Core architecture engineered for stability
-
+  Core architecture engineered for stability
 </p>
 
 </>
@@ -213,21 +235,37 @@ Core architecture engineered for stability
 <>
 
 <h2
-className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-3"
-style={headingStyle}
+  className="
+    w-fit
+    text-xl sm:text-2xl md:text-3xl lg:text-4xl
+    font-medium
+    mb-3
+    px-4 py-2
+    rounded-lg
+    bg-black/30
+    backdrop-blur-md
+    border border-white/20
+    text-white
+  "
+  style={headingStyle}
 >
-
-Handles growth automatically
-
+  Handles growth automatically
 </h2>
 
 <p
-className="text-white/80 text-sm sm:text-base md:text-lg"
-style={paragraphStyle}
+  className="
+    w-fit
+    text-sm sm:text-base md:text-lg
+    text-white
+    px-4 py-2
+    rounded-lg
+    bg-black/30
+    backdrop-blur-md
+    border border-white/20
+  "
+  style={paragraphStyle}
 >
-
-Automated pipelines and systems working continuously
-
+  Automated pipelines and systems working continuously
 </p>
 
 </>
@@ -243,21 +281,38 @@ Automated pipelines and systems working continuously
 <>
 
 <h2
-className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-4"
-style={headingStyle}
+  className="
+    w-fit
+    text-xl sm:text-2xl md:text-3xl lg:text-4xl
+    font-medium
+    mb-4
+    px-4 py-2
+    rounded-lg
+    bg-black/30
+    backdrop-blur-md
+    border border-white/20
+    text-white
+  "
+  style={headingStyle}
 >
-
-Secure and production-ready
-
+  Secure and production-ready
 </h2>
 
 <p
-className="text-white/80 text-sm sm:text-base md:text-lg mb-6"
-style={paragraphStyle}
+  className="
+    w-fit
+    text-sm sm:text-base md:text-lg
+    text-white
+    mb-6
+    px-4 py-2
+    rounded-lg
+    bg-black/30
+    backdrop-blur-md
+    border border-white/20
+  "
+  style={paragraphStyle}
 >
-
-Built for reliability, protection, and continuous operation
-
+  Built for reliability, protection, and continuous operation
 </p>
 
 <Link

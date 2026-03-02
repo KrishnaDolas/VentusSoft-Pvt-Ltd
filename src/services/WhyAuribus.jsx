@@ -80,20 +80,20 @@ export default function WhyAuribus() {
             <div className="flex flex-col gap-4 text-lg text-white/90">
               {/* CLICKABLE LINKS */}
               <a 
-                href="mailto:support@auribustech.com" 
+                href="mailto:contact@ventussoft.com" 
                 className="flex items-center gap-3 hover:text-sky-300 transition-colors"
               >
                 <span className="text-2xl">📧</span> 
-                support@ventussoft.com
+                contact@ventussoft.com
               </a>
               
-              <a 
+              {/* <a 
                 href="tel:+918149524655" 
                 className="flex items-center gap-3 hover:text-sky-300 transition-colors"
               >
                 <span className="text-2xl">📱</span> 
                 +91-8149524655
-              </a>
+              </a> */}
             </div>
           </div>
 

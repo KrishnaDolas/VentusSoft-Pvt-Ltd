@@ -23,7 +23,7 @@ export default function ServicesHero() {
             // Dynamic Text: Large on Desktop (6xl), smaller on mobile (5xl)
             className="text-5xl lg:text-6xl font-semibold tracking-tight text-white leading-[1.1]"
           >
-            Services for <span className="text-cyan-400">modern teams.</span>
+            Services for <span className="text-cyan-400">Modern Teams.</span>
           </motion.h1>
 
           {/* SUBTEXT */}
@@ -33,8 +33,7 @@ export default function ServicesHero() {
             transition={{ delay: 0.1, duration: 0.8 }}
             className="mt-6 text-slate-400 text-lg lg:text-xl leading-relaxed max-w-3xl"
           >
-            From DevOps to cloud infrastructure, web and mobile development, content and
-            automation — Auribus Tech delivers modern solutions for fast-growing brands.
+            End-to-end digital solutions across DevOps, cloud, web, mobile, content, and automation.
           </motion.p>
 
           {/* 2. DYNAMIC GRID SYSTEM 

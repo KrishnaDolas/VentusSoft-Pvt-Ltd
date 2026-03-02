@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { p } from "framer-motion/client";
 import { FaCheck } from "react-icons/fa";
 
 export default function AboutHero() {
@@ -22,10 +23,10 @@ export default function AboutHero() {
               // CHANGED: text-5xl (was 6xl), font-medium (was bold)
               className="text-4xl lg:text-5xl font-medium text-white leading-[1.15] mb-8 tracking-tight"
             >
-               Building modern web, mobile apps &{" "}
+               Building Modern Web, Mobile Apps &{" "}
               {/* GRADIENT TEXT */}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
-                delivering high-quality software solutions.
+                Delivering High-Quality Software Solutions.
               </span>
             </motion.h1>
 
@@ -37,9 +38,9 @@ export default function AboutHero() {
               transition={{ delay: 0.2, duration: 0.8 }}
               className="space-y-5"
             >
-              <ListItem text="MERN, React Native & WordPress expertise" />
+              {/* <ListItem text="MERN, React Native & WordPress expertise" /> */}
               {/* <ListItem text="50+ full-stack projects delivered" /> */}
-              <ListItem text="End-to-end from design to DevOps & deployment" />
+              {/* <ListItem text="End-to-end from design to DevOps & deployment" /> */}
             </motion.ul>
 
           </div>
@@ -65,7 +66,7 @@ export default function AboutHero() {
               className="relative h-full w-full rounded-2xl overflow-hidden bg-[#0b0d12] z-10 border border-white/10"
             >
               <img
-                src={`${import.meta.env.BASE_URL}/abouthero.jpg`}
+                src={"/images/abouthero.jpg"}
                 alt="Auribus Tech team"
                 className="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
               />

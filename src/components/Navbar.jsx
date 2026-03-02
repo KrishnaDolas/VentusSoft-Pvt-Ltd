@@ -78,13 +78,32 @@ const Navbar = () => {
 
             {/* LOGO IMAGE — place your file in public/logo.png */}
 
-          {/* <div className="h-20 w-20 overflow-hidden rounded-xl">
-  <img
-    src="/auribus_ventuslogo.png"
-    alt="Ventus Soft"
-    className="h-full w-full object-cover"
-  />
-</div> */}
+        <div className="flex items-center gap-3 group">
+  {/* Logo */}
+  <div className="h-20 w-20 overflow-hidden rounded-xl">
+    <img
+      src="/images/auribus_ventuslogo.png"
+      alt="Ventus Soft"
+      className="h-full w-full object-cover"
+    />
+  </div>
+
+  {/* Animated Brand Name */}
+  <div className="overflow-hidden">
+    <h1 className="text-white text-2xl md:text-3xl font-semibold tracking-wide">
+      <span className="inline-block animate-slideUpFade delay-100">
+        Ventus
+      </span>{" "}
+      <span className="inline-block text-[#00C6FF] animate-slideUpFade delay-300">
+        Soft
+      </span>
+    </h1>
+
+    <p className="text-xs uppercase tracking-widest text-white/50 animate-fadeIn delay-500">
+      Digital Infrastructure
+    </p>
+  </div>
+</div>
 
 
 

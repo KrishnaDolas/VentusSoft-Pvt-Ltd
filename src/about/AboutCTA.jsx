@@ -24,7 +24,7 @@ export default function AboutCTA() {
 
           {/* HEADING */}
           <h2 className="text-4xl lg:text-5xl font-medium text-white mb-6 tracking-tight">
-            Let’s build or transform your platform
+            Let’s Build Or Transform Your Platform
           </h2>
 
           {/* SUBTEXT */}
@@ -38,13 +38,13 @@ export default function AboutCTA() {
             
             {/* EMAIL LINK */}
             <motion.a
-              href="mailto:support@auribustech.com"
+              href="mailto:contact@ventussoft.com"
               whileHover={{ scale: 1.05, color: "#38bdf8" }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center gap-3 text-xl text-white/80 hover:text-sky-400 transition-colors"
             >
               <FaEnvelope />
-              support@ventussoft.com
+              contact@ventussoft.com
             </motion.a>
 
             {/* DIVIDER DOT (Hidden on mobile) */}

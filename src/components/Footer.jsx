@@ -27,7 +27,7 @@ export default function Footer() {
 
             <img
 
-              src={`${import.meta.env.BASE_URL}/auribus_ventuslogo.png`}
+              src={"/images/auribus_ventuslogo.png"}
 
               alt="Ventus Soft"
 
@@ -48,9 +48,7 @@ export default function Footer() {
 
           <p className="mt-4 text-sm text-white/50 leading-relaxed">
 
-            Engineering reliable infrastructure, cloud platforms,
-
-            and deployment systems for modern software teams.
+            Your Trusted Partner for Innovation and Software Solutions.
 
           </p>
 
@@ -84,7 +82,7 @@ export default function Footer() {
 
             </Link>
 
-            <Link to="/about" className="text-white/70 hover:text-white transition">
+            {/* <Link to="/about" className="text-white/70 hover:text-white transition">
 
               About
 
@@ -94,7 +92,7 @@ export default function Footer() {
 
               Contact
 
-            </Link>
+            </Link> */}
 
           </div>
 
@@ -114,7 +112,7 @@ export default function Footer() {
 
             <a
 
-              href="mailto:support@ventussoft.com"
+              href="mailto:contact@ventussoft.com"
 
               className="flex items-center gap-2 text-white/70 hover:text-white transition"
 
@@ -122,13 +120,13 @@ export default function Footer() {
 
               <FaEnvelope />
 
-              support@ventussoft.com
+              contact@ventussoft.com
 
             </a>
 
 
 
-            <a
+            {/* <a
 
               href="https://www.linkedin.com/"
 
@@ -144,7 +142,7 @@ export default function Footer() {
 
               LinkedIn
 
-            </a>
+            </a> */}
 
           </div>
 

@@ -24,3 +24,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.animate-slideUpFade {
+  animation: slideUpFade 0.8s ease-out forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}

@@ -340,9 +340,9 @@ const ServicesSection = () => {
         {/* 7. FINAL CTA */}
         <section style={styles.ctaBox}>
           <div style={{position:'absolute', top:'-50%', left:'-20%', width:'500px', height:'500px', background:'#4FA3FF', filter:'blur(200px)', opacity:0.1, pointerEvents:'none'}}></div>
-          <h2 style={{fontFamily:'"Outfit", sans-serif', fontSize:'2.5rem', fontWeight:'700', marginBottom:'1rem'}}>Let’s Build Your Success Story 🚀</h2>
+          <h2 style={{fontFamily:'"Outfit", sans-serif', fontSize:'2.5rem', fontWeight:'700', marginBottom:'1rem'}}>Let’s Build Your Success Story With Us</h2>
           <p style={{color:'#cbd5e1', fontSize:'1.1rem', maxWidth:'600px', margin:'0 auto'}}>
-            Whether it's Cloud, DevOps, MERN, or WordPress — we deliver results.
+        
           </p>
           <a href="/contact" style={styles.ctaButton}>Contact Us Today</a>
         </section>
